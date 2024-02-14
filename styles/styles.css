@@ -349,7 +349,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .service-subtitle {
@@ -392,6 +392,16 @@ left: 0;
 padding: 27px 107px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
+}
+
+.service-text {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 171.429%;
+  letter-spacing: 0.42px;
+  margin-top: 30px;
 }
 
 .service-item:nth-child(2) .service-bg{
@@ -521,16 +531,19 @@ border-bottom-right-radius: 10px;
 }
 
 .clients {
-  padding: 94px 0;
+  padding: 294px 0;
 }
 
 .clients-title {
   color: var(--text-color);
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
+  max-width: 1200px;
 }
 
 .clients-list {
