@@ -285,7 +285,7 @@ body {
 } */
 
 .features {
-  padding: 94px 0;
+  padding: 64px 0;
 }
 
 .features-list {
@@ -300,6 +300,15 @@ body {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+}
+
+.features-maintitle {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 
 .features-text {
