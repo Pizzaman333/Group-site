@@ -354,6 +354,7 @@ body {
 
 .service-subtitle {
   color: var(--white-color);
+  text-align: center;
 font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
@@ -363,6 +364,17 @@ text-transform: uppercase;
 .service-image {
   width: 370px;
 height: 294px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.service-item:nth-child(1) .service-image{
+  object-position: top;
+}
+
+
+.service-item:nth-child(2) .service-image{
+  object-position: top;
 }
 
 .service-item {
@@ -378,6 +390,8 @@ bottom: 0;
 left: 0;
 /* z-index: 2; */
 padding: 27px 107px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
 }
 
 .service-item:nth-child(2) .service-bg{
@@ -393,9 +407,23 @@ padding: 27px 107px;
   background-color: rgba(245, 244, 250, 1);
 }
 
+.headteam-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.curator-item {
+  width: 370px;
+}
+
+
 .team-list {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .team-title {
